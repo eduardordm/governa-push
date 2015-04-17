@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="governaPush">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <base href="/">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    </head>
+    <body>
+
+      <div ng-include="'partials/navbar.html'"></div>
+
+      <div class="container-fluid">
+          <div ng-view></div>
+      </div>
+
+      <script src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/restangular/dist/restangular.min.js"></script>
+      <script src="bower_components/lodash/dist/lodash.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+      <script src="bower_components/angular-route/angular-route.js"></script>
+
+      <script src="app.js"></script>
+      <script src="config.js"></script>
+      <script src="routes.js"></script>
+
+      <script src="home/welcome_controller.js"></script>
+      <script src="mensagens/mensagem_lista_controller.js"></script>
+
+
+
+
+
+    </body>
+</html>
